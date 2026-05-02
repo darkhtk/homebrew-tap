@@ -1,24 +1,24 @@
 class CrConnector < Formula
   desc "Daemon that bridges the Remote for Claude site to claude CLI on this PC"
   homepage "https://claude-remote-platform-site.semibanbi.workers.dev"
-  version "0.1.8"
+  version "0.1.9"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/darkhtk/claude-remote-platform/releases/download/v0.1.8/cr-connector-darwin-arm64.zip"
-      sha256 "7a7dc3150d04178c8d057698c9159140f1a16ca28e9385718ed0930d44924511"
+      url "https://github.com/darkhtk/claude-remote-platform/releases/download/v0.1.9/cr-connector-darwin-arm64.zip"
+      sha256 "2faf8e0df2c4680c6d616f24cb5814eaaddb19abb07e9ad358c5e1f240d8736e"
     end
     on_intel do
-      url "https://github.com/darkhtk/claude-remote-platform/releases/download/v0.1.8/cr-connector-darwin-x64.zip"
-      sha256 "c828c4ad0b683fc2b0cb00db12a49df2124ea727e0804a2e8a4d3c05bcc33689"
+      url "https://github.com/darkhtk/claude-remote-platform/releases/download/v0.1.9/cr-connector-darwin-x64.zip"
+      sha256 "dd270ae0c24d70e5638dfb42b4315b46e2f9d6a17ed73572a6008fb0a0e05dbd"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/darkhtk/claude-remote-platform/releases/download/v0.1.8/cr-connector-linux-x64.zip"
-      sha256 "f7393dbbe2cdb6c3578f797c77feafc62d7e04f04f1ef15d4454db05ef8b927c"
+      url "https://github.com/darkhtk/claude-remote-platform/releases/download/v0.1.9/cr-connector-linux-x64.zip"
+      sha256 "61e39e366537b662236e17815137c2b412984e8f90dd1b6d5c4347574af1beec"
     end
   end
 
